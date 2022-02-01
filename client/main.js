@@ -12,8 +12,8 @@ axios.get("http://localhost:4000/api/fortune/")
 }
 
 makeBtn.onclick = function () {
-    axios.post("http://localhost:4000/api/make")
-    .then(CreateButton)
+    axios.post("http://localhost:4000/api/make".body)
+    .then(CreateButton,)
 }
 
 // create Button function

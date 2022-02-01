@@ -39,7 +39,7 @@ app.post("/api/make", (req,res)=>{
 
 })
 app.delete("/api/make/:id", (req,res) => {
-
+console.log('request deleted')
 })
 
 app.put("")
